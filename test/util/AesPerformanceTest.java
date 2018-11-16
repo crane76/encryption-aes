@@ -2,7 +2,7 @@ package util;
 
 public class AesPerformanceTest {
   public static void main(String[] args) {
-    String plain = "SOME-DATA-TO-BLOCK-ENCRYPTION11111111111";
+    String plain = "SOME-DATA-TO-BLOCK-ENCRYPTION";
     String key = "SOME-ENCRYPTION-KEY-USED-ONLY-16-OR-32-BYTES";
     String iv = "SOME-INITIAL-VECTOR-USED-ONLY-16-BYTES";
     
