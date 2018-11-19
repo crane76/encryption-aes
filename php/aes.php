@@ -30,7 +30,7 @@ function fixIv($ivIn) {
 	$ivOut = null;
 	if (!is_null($ivIn)) {
 		if (strlen($ivIn) < 16) {
-			$ivOut = str_pad($ivIn, 16-strlen($ivIn), '\0');
+			$ivOut = str_pad($ivIn, 16, '\0');
 		} else {
 			$ivOut = substr($ivIn, 0, 16);
 		}
