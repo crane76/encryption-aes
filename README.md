@@ -1,7 +1,7 @@
 # encryption-aes
 encrypt/decrypt aes in java, php and check in openssl
 
-# openssl encryption test
+# openssl encryption and decryption test
 <pre><code>
 user@server:~ % echo -n "SOME-DATA-TO-BLOCK-ENCRYPTION" | openssl enc -aes-128-cbc -base64 -K 534f4d452d454e4352595054494f4e2d -iv 534f4d452d494e495449414c2d564543
 3Usa7qwKQKXFnZqQXUG6EhMa02OkEhCRdtsE4Q+aui4=
